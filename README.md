@@ -58,19 +58,27 @@ Handled using **Zustand** to efficiently manage complex state updates and rollba
 ## 📂 Project Structure
 
 src/
-├ api/
-│ └ mockApi.js
-├ store/
-│ └ taskStore.js
-├ pages/
-│ ├ Login.jsx
-│ └ Board.jsx
-├ components/
-│ ├ Column.jsx
-│ └ TaskCard.jsx
-├ App.jsx
-├ main.jsx
-└ index.css
+│
+├─ api/
+│   └─ mockApi.js
+│
+├─ store/
+│   └─ taskStore.js
+│
+├─ pages/
+│   ├─ Login.jsx
+│   └─ Board.jsx
+│
+├─ components/
+│   ├─ Column.jsx
+│   └─ TaskCard.jsx
+│
+├─ styles/
+│   └─ index.css
+│
+├─ App.jsx
+└─ main.jsx
+
 
 ---
 
