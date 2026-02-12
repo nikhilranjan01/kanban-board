@@ -2,7 +2,7 @@
 
 A simplified **Kanban Board Application** built using **React + Tailwind CSS** with a strong focus on **Optimistic UI Updates, Robust State Management, and Clean User Experience**.
 
-This project demonstrates how to manage asynchronous operations, UI consistency, and rollback mechanisms without using a real backend.
+This project demonstrates how to manage asynchronous operations, UI consistency, and rollback mechanisms **without using a real backend**.
 
 ---
 
@@ -29,7 +29,7 @@ This project demonstrates how to manage asynchronous operations, UI consistency,
 ## 🧠 Core Engineering Concepts
 
 ### Optimistic UI
-User actions update the interface instantly without waiting for server response, creating a zero-latency experience.
+User actions update the interface instantly without waiting for the server response, creating a zero-latency experience.
 
 ### Rollback Mechanism
 If the simulated API fails, the UI automatically restores the previous state to maintain data consistency.
@@ -56,7 +56,8 @@ Handled using **Zustand** to efficiently manage complex state updates and rollba
 ---
 
 ## 📂 Project Structure
-```
+
+```text
 src/
 ├─ api/
 │  └─ mockApi.js
@@ -79,7 +80,6 @@ src/
 └─ main.jsx
 ```
 
-
 ---
 
 ## ⚙️ Installation & Running
@@ -87,6 +87,7 @@ src/
 ```bash
 npm install
 npm run dev
+```
 
 ---
 
@@ -100,46 +101,46 @@ npm run dev
 ---
 
 ## 📡 Mock API Behavior
-```
+
 | Property | Value |
 |---------|------|
 | Delay | 1–2 Seconds |
 | Failure Rate | 20% Random |
 | Affected Actions | Add, Move, Delete |
 | On Failure | Toast Notification + UI Rollback |
-```
+
 ---
 
 ## 🔄 Optimistic Update Flow
 
 1. User performs an action (Add / Move / Delete)
 2. UI updates immediately
-3. Mock API request begins in background
-4. If API succeeds → state remains unchanged
-5. If API fails → previous state restored automatically
+3. Mock API request begins in the background
+4. If the API succeeds → state remains unchanged
+5. If the API fails → previous state is restored automatically
 
 ---
 
 ## 🎯 Assignment Objectives Achieved
 
-- Data Consistency
-- Optimistic Rendering
-- Error Recovery & Rollback
-- Clean Component Architecture
-- Asynchronous State Control
-- Responsive UI / UX
-- Scalable State Design
+- Data Consistency  
+- Optimistic Rendering  
+- Error Recovery & Rollback  
+- Clean Component Architecture  
+- Asynchronous State Control  
+- Responsive UI / UX  
+- Scalable State Design  
 
 ---
 
 ## 🚀 Possible Future Enhancements
 
-- Real Backend Integration
-- Advanced Drag & Drop Animations
-- Task Editing & Labels
-- User Profiles
-- Dark Mode Theme
-- Due Dates & Notifications
+- Real Backend Integration  
+- Advanced Drag & Drop Animations  
+- Task Editing & Labels  
+- User Profiles  
+- Dark Mode Theme  
+- Due Dates & Notifications  
 
 ---
 
@@ -151,6 +152,4 @@ npm run dev
 
 ## 📜 License
 
-This project is developed for **Frontend Engineering Assignment Evaluation Purpose Only**.
-
----
+This project is developed for **Frontend Engineering Assignment Evaluation Purposes Only**.
