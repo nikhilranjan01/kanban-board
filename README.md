@@ -56,7 +56,7 @@ Handled using **Zustand** to efficiently manage complex state updates and rollba
 ---
 
 ## 📂 Project Structure
-
+```
 src/
 ├─ api/
 │  └─ mockApi.js
@@ -77,7 +77,7 @@ src/
 │
 ├─ App.jsx
 └─ main.jsx
-
+```
 
 
 ---
