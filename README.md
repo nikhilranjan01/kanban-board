@@ -100,14 +100,14 @@ npm run dev
 ---
 
 ## 📡 Mock API Behavior
-
+```
 | Property | Value |
 |---------|------|
 | Delay | 1–2 Seconds |
 | Failure Rate | 20% Random |
 | Affected Actions | Add, Move, Delete |
 | On Failure | Toast Notification + UI Rollback |
-
+```
 ---
 
 ## 🔄 Optimistic Update Flow
